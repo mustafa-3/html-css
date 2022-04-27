@@ -1,0 +1,42 @@
+body {
+    background-image: url("images/background_image.jpg");
+    color: white;
+} 
+header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.flix {
+    color: red;
+} 
+section {
+    width: 23%;
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
+.form {
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.8)
+}
+.labels {
+    margin-bottom: 7px;
+}
+.inputs {
+    padding: 3%;
+    width: 280px;
+}
+.feedback {
+    margin-bottom: 10px;
+}
+.submit {
+    margin-left: 30%;
+    margin-top: 5px;
+    width: 40%;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: red     
+}
+
