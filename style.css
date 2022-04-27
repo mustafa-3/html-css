@@ -7,10 +7,10 @@ header {
     font-weight: bolder;
     font-size: larger;
 }
-.flix {
+header span {
     color: red;
 } 
-section {
+.content {
     width: 23%;
     display: block;
     padding: 20px;
@@ -20,7 +20,7 @@ section {
     padding: 20px;
     background-color:rgba(0, 0, 0, 0.8)
 }
-.labels {
+.box {
     margin-bottom: 7px;
 }
 .inputs {

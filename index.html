@@ -12,32 +12,32 @@
 <body >
    
     <header>
-        <h1>NET<span class="flix">FLİX</span></h1>
+        <h1>NET<span>FLİX</span></h1>
         <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
     </header>    
             
-    <section>
+    <div class="content">
          <form action="">
             <div class="form">
 
-    <div class="labels">
+    <div class="box">
         <label for="Name">Name</label><br>
             <input class="inputs" type="text" placeholder="Enter your name" name="Name" id="Name" >
             <br>
         </div>
 
-    <div class="labels">
+    <div class="box">
         <label for="Age">Age</label><br>
             <input class="inputs" type="number" placeholder="Age" name="Age" id="Age" >
             <br>
         </div>
 
-    <div class="labels">
+    <div class="box">
         <label for="Email">Email</label><br>
             <input class="inputs" type="email" placeholder="Enter your email" name="Email" id="Email" >
         </div>
 
-    <div class="labels">
+    <div class="box">
         <label for="Content type">Content type</label><br>
             <select name="Content type" id="Content type">
                 <option value="series">Series</option>
@@ -48,7 +48,8 @@
             </select>
             <br>             
         </div> 
-            
+
+        <div>
             <label for="Movie type">Movie type</label><br>
             <input type="checkbox" name="Comedy" id="Comedy">
             <label for="Comedy">Comedy</label><br>
@@ -56,7 +57,9 @@
             <label for="Action">Action</label><br>
             <input type="checkbox" name="Romance" id="Romance" checked>
             <label for="Romance">Romance</label><br><br>
-            
+        </div>
+
+        <div>
             <label for="Gender">Gender</label><br>
             <input type="radio" name="Male" id="Male">
             <label for="Male">Male</label><br>
@@ -64,7 +67,8 @@
             <label for="Female">Female</label><br>
             <input type="radio" name="Other" id="Other">
             <label for="Other">Other</label><br><br>
-            
+        </div>    
+
         <div class="feedback">
             <label for="Feedback">Feedback</label><br>
         </div>
@@ -74,7 +78,7 @@
 
         </div>
         </form>
-    </section>
+    </div>
         
 </body>
 </html>
