@@ -1,6 +1,8 @@
 body {
     background-image: url("images/background_image.jpg");
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 header {
     text-align: center;
@@ -11,7 +13,7 @@ header span {
     color: red;
 } 
 .content {
-    width: 23%;
+    width: 400px;
     display: block;
     padding: 20px;
     margin: auto;
@@ -24,8 +26,8 @@ header span {
     margin-bottom: 7px;
 }
 .inputs {
-    padding: 3%;
-    width: 280px;
+    padding: 10px;
+    width: 320px;
 }
 .feedback {
     margin-bottom: 10px;
@@ -39,4 +41,8 @@ header span {
     border-radius: 20px;
     background-color: red     
 }
-
+@media (max-width:700px) {
+.container {
+width: 90%;
+}
+}
